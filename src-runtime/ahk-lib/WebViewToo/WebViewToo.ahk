@@ -1274,7 +1274,7 @@ class WebViewCtrl extends Gui.Custom {
     WebResourceResponseReceived(Handler) => this.wv.add_WebResourceResponseReceived(Handler)
     DOMContentLoaded(Handler) => this.wv.add_DOMContentLoaded(Handler)
     FrameCreated(Handler) => this.wv.add_FrameCreated(Handler)
-    DownloadStarting(Handler) => this.wv.add_ownloadStarting(Handler)
+    DownloadStarting(Handler) => this.wv.add_DownloadStarting(Handler)
     ClientCertificateRequested(Handler) => this.wv.add_ClientCertificateRequested(Handler)
     IsMutedChanged(Handler) => this.wv.add_IsMutedChanged(Handler)
     IsDocumentPlayingAudioChanged(Handler) => this.wv.add_IsDocumentPlayingAudioChanged(Handler)
