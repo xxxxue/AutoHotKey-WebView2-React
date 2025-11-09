@@ -363,6 +363,8 @@ class WebViewSizer extends Gui {
     }
 
     Move(X, Y, Width, Height) {
+        Width := Ceil(Width * (A_ScreenDPI / 96))
+        Height := Ceil(Height * (A_ScreenDPI / 96))
         ; Adjust the sizing handles to fit the GUI, first punching a big hole
         ; in the center for click-through, then resizing it to fit the GUI.
         hRgn1 := DllCall("CreateRectRgn", "Int", 0, "Int", 0, "Int", Width, "Int", Height, "Ptr")
