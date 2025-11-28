@@ -1,0 +1,23 @@
+/* 引用 tailwindcss,不会新增实际代码, 只是给 tw 编译器写的标记 */
+@reference "tailwindcss";
+
+/* 自己定义的 css 用 "aa" 开头,方便快速智能提示 */
+
+@utility aa-w-h-full {
+  @apply h-full w-full;
+}
+@utility aa-flex-center {
+  @apply flex items-center justify-center;
+}
+@utility aa-w-h-screen {
+  @apply h-screen w-screen;
+}
+
+/* webview 原生拖拽窗口 */
+@utility aa-drag-box {
+  -webkit-app-region: drag;
+}
+/* webview 某些组件忽略原生拖拽窗口 */
+@utility aa-no-drag-box {
+  -webkit-app-region: no-drag;
+}

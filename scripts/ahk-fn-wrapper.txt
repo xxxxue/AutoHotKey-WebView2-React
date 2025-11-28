@@ -1,0 +1,464 @@
+Abs 返回指定数字的绝对值.
+ASin 返回以弧度表示的反正弦值(其正弦值为指定数字).
+ACos 返回以弧度表示的反余弦值(其余弦值为指定数字).
+ATan 返回以弧度表示的反正切值(其正切值为指定数字).
+BlockInput 禁用或启用用户通过键盘和鼠标与计算机交互的能力.
+Buffer 创建缓冲, 它封装了一个内存块, 以便与其他函数一起使用.
+CallbackCreate 创建一个机器码地址, 当调用该地址时, 将重定向调用到脚本中的函数.
+CallbackFree 删除回调函数并释放其对函数对象的引用.
+CaretGetPos 检索插入符号的当前位置(文本插入点).
+Catch 指定在执行 Try 语句抛出值或错误时执行的一或多条语句.
+Ceil 返回指定数字向上取整后的整数(不含任何 .00 后缀).
+Chr 返回与指定数字所表示的编码相对应的字符串(通常是单个字符).
+Click 在指定坐标处点击鼠标按钮.它还可以按下鼠标按钮, 转动鼠标滚轮或移动鼠标.
+ClipboardAll 创建一个包含剪贴板上的所有内容的对象(如图片和格式).
+ClipWait 等待, 一直到剪贴板包含数据.
+ComCall 通过索引调用原生 COM 接口方法.
+ComObjActive 检索已注册的 COM 对象.
+ComObjArray 创建用于 COM 的 SafeArray.
+ComObjConnect 将 COM 对象的事件源连接到脚本, 使事件能够被处理.
+ComObject 创建 COM 对象.
+ComObjFlags 检索或更改控制 COM 包装器对象行为的标志.
+ComObjFromPtr 包装一个原始 IDispatch ¬ 指针(COM 对象), 以供脚本使用.
+ComObjGet 返回由 COM 组件提供的对象引用.
+ComObjQuery 查询 COM 对象的接口或服务.
+ComObjType 从 COM 对象检索类型信息.
+ComObjValue 检索存储在 COM 包装器对象中的值或指针.
+ComValue 包装一个值, 安全数组或 COM 对象, 以供脚本使用或传递给 COM 方法.
+Continue 跳过当前 loop 语句的剩余部分并继续下一次循环.
+ControlAddItem 将指定的字符串作为新条目添加到列表框或组合框的底部.
+ControlChooseIndex 将列表框, 组合框或标签页控件中的选择设置为指定的条目或选项卡编号.
+ControlChooseString 将列表框或组合框中的选择设置为前导部分与指定字符串匹配的第一个条目.
+ControlClick 向控件发送鼠标按钮或鼠标滚轮事件.
+ControlDeleteItem 从列表框或组合框中删除指定的条目编号.
+ControlFindItem 返回与指定字符串完全匹配的列表框或组合框的条目编号.
+ControlFocus 设置窗口上给定控件的输入焦点.
+ControlGetChecked 如果选中复选框或单选按钮, 返回非零值.
+ControlGetChoice 返回列表框或组合框中当前选定项的名称.
+ControlGetClassNN 返回指定控件的 ClassNN(类名和序号).
+ControlGetEnabled 如果指定的控件是启用的, 返回非零值.
+ControlGetFocus 检索目标窗口的哪个控件具有键盘焦点(如果有的话).
+ControlGetHwnd 返回指定控件的唯一 ID 号.
+ControlGetIndex 返回 ListBox, ComboBox 或 Tab 控件中当前选中的条目或标签的索引.
+ControlGetItems 从列表视图, 列表框, 组合框或下拉列表中返回项目/行的数组.
+ControlGetPos 获取控件的位置和大小.
+ControlGetStyle TODO
+ControlGetExStyle 返回一个表示指定控件的样式或扩展样式的整数.
+ControlGetText 从控件检索文本.
+ControlGetVisible 如果指定的控件是可见的, 则返回非零值.
+ControlHide 隐藏指定的控件.
+ControlHideDropDown 隐藏组合框控件的下拉列表.
+ControlMove 移动或调整控件的大小.
+ControlSend TODO
+ControlSendText 向窗口或控件发送模拟的击键或文本.
+ControlSetChecked 打开(选中) 或关闭(取消选中) 复选框或单选按钮.
+ControlSetEnabled 启用或禁用指定的控件.
+ControlSetStyle TODO
+ControlSetExStyle 分别更改指定控件的样式或扩展样式.
+ControlSetText 更改控件的文本.
+ControlShow 显示先前隐藏的指定控件.
+ControlShowDropDown 显示组合框控件的下拉列表.
+CoordMode 为多个内置函数设置坐标模式, 相对于活动窗口还是屏幕.
+Cos 返回 Number 的余弦值.
+Critical 防止当前线程被其他线程中断, 或开启允许被中断.
+DateAdd 日期-时间值加上或减去时间.
+DateDiff 比较两个日期-时间值并返回差值.
+DetectHiddenText 设置在查找窗口时是否 "看见" 隐藏的文本.这将影响 WinExist 和 WinActivate 等窗口命令.
+DetectHiddenWindows 设置脚本是否可以 "看见" 隐藏的窗口.
+DirCopy 复制文件夹及其所有子文件夹和文件(类似于 xcopy), 或者复制归档文件(如 ZIP) 的全部内容.
+DirCreate 创建目录.
+DirDelete 删除目录.
+DirExist 检查文件夹是否存在并返回其属性.
+DirMove 移动文件夹及其所有子文件夹和文件.它也可以重命名一个文件夹.
+DirSelect 显示可以让用户选择文件夹的标准对话框.
+DllCall 调用 DLL 文件中的函数, 例如标准的 Windows API 函数.
+Download 从互联网下载文件.
+DriveEject 弹出或收回指定 CD/DVD 驱动器的托盘, 或弹出可移动驱动器.
+DriveGetCapacity 返回包含指定路径的驱动器的总容量, 单位为 mb(兆字节).
+DriveGetFileSystem 返回指定驱动器的文件系统的类型.
+DriveGetLabel 返回指定驱动器的卷标.
+DriveGetList 返回一串字母, 系统中的每个驱动器字母对应一个字符.
+DriveGetSerial 返回指定驱动器的卷序列号.
+DriveGetSpaceFree 包含指定路径的驱动器的空闲磁盘空间, 单位为 mb(兆字节).
+DriveGetStatus 返回包含指定路径的驱动器的状态.
+DriveGetStatusCD 返回指定 CD/DVD 驱动器的媒体状态.
+DriveGetType 返回包含指定路径的驱动器类型.
+DriveLock 阻止指定驱动器的弹出功能正常工作.
+DriveRetract 收回指定 CD/DVD 驱动器的托盘.
+DriveSetLabel 更改指定驱动器的卷标签.
+DriveUnlock 恢复指定驱动器的弹出功能.
+Edit 在默认编辑器中打开当前脚本进行编辑.
+EditGetCurrentCol 返回编辑控件中插入符号(文本插入点) 所在的列号.
+EditGetCurrentLine 返回编辑控件中插入符号(文本插入点) 所在的行号.
+EditGetLine 返回编辑控件中指定行的文本.
+EditGetLineCount 返回编辑控件中的行数.
+EditGetSelectedText 返回编辑控件中选定的文本.
+EditPaste 将指定的字符串粘贴到编辑控件中的插入符号(文本插入点) 处.
+Else 如果关联语句的主体没有执行, 指定要执行的一个或多个语句.
+EnvGet 检索环境变量的值.
+EnvSet 将值写入指定的环境变量中.
+Exit 退出当前线程.
+ExitApp 终止脚本.
+Exp 返回 e(近似值为 2.71828182845905) 的 N 次幂.
+FileAppend 在文件末尾写入文本或二进制数据(如果需要, 首先创建文件).
+FileCopy 复制一个或多个文件.
+FileCreateShortcut 创建快捷方式(.lnk) 文件.
+FileDelete 永久删除一个或多个文件.
+FileEncoding 为 FileRead, Loop Read, FileAppend 和 FileOpen 设置默认编码.
+FileExist 检查文件或目录是否存在并返回它的属性.
+FileInstall 在已编译的脚本中包含指定的文件.
+FileGetAttrib 报告文件或文件夹是否为只读, 隐藏等.
+FileGetShortcut 获取快捷方式(.lnk) 文件的信息, 例如其目标文件.
+FileGetSize 获取文件的大小.
+FileGetTime 获取文件或文件夹的时间戳.
+FileGetVersion 检索文件的版本.
+FileMove 移动或重命名一个或多个文件.
+FileOpen 打开文件, 从其中读取特定内容和/或将新内容写入其中.
+FileRead 检索文件的内容.
+FileRecycle 如果可能发送文件或目录到回收站, 或永久删除该文件.
+FileRecycleEmpty 清空回收站.
+FileSelect 显示可以让用户打开或保存文件的标准对话框.
+FileSetAttrib 改变一个或多个文件或文件夹的属性.支持通配符.
+FileSetTime 改变一个或多个文件或文件夹的时间戳.支持通配符.
+Finally 确保在 Try 语句完成之后始终执行一条或多条语句.
+Float 将数字字符串或整数值转换为浮点数.
+Floor 返回指定数字向下取整后的整数(不含任何 .00 后缀).
+For 对对象中的每对键值对重复执行一或多条语句.
+Format 根据格式字符串格式化一个可变数量的输入值.
+FormatTime 将 YYYYMMDDHH24MISS 时间戳转换为指定的日期/时间格式.
+GetKeyName 检索按键的名称/文本.
+GetKeyVK 检索按键的虚拟键码.
+GetKeySC 检索按键的扫描码.
+GetKeyState 根据指定的键盘按键或鼠标/控制器按钮是上还是下, 返回 1 (true) 或 0(false).也检索控制器状态.
+GetMethod 检索方法的实现函数.
+Goto 跳转到指定的标签并继续执行.
+GroupActivate 激活由 GroupAdd 定义的窗口组中的下一个窗口.
+GroupAdd 增加窗口规格到窗口组, 必要时创建组.
+GroupClose 关闭刚刚被 GroupActivate 或 GroupDeactivate 激活的活动窗口.接着激活系列中的下一个窗口.它还可以关闭组中所有窗口.
+GroupDeactivate 类似于 GroupActivate, 不同的是它激活 不 在组中的下一个窗口.
+Gui 创建并返回一个新的 Gui 对象.这可以用来定义一个自定义窗口或图形用户界面(GUI), 以显示信息或接受用户输入.
+GuiCtrlFromHwnd 检索与指定的窗口句柄关联的 GUI 控件的 GuiControl 对象.
+GuiFromHwnd 检索与指定的窗口句柄关联的 Gui 窗口的 Gui 对象.
+HasBase 如果指定的值派生自指定的基对象, 则返回非零数字.
+HasMethod 如果指定的值具有指定名称的方法, 则返回非零数字.
+HasProp 如果指定值具有指定名称的属性, 则返回非零数字.
+HotIf 指定后续创建或修改热键变体和热字串变体的条件.
+HotIfWin 指定后续创建或修改热键变体和热字串变体的条件.
+Hotkey 在脚本运行时创建, 修改, 启用或禁用热键.
+Hotstring 在脚本运行时创建, 修改, 启用或禁用热字串.
+IL_Create TODO
+IL_Add TODO
+IL_Destroy 将图标添加到 ListView 或 TreeView 控件的方法.
+ImageSearch 在屏幕的某个区域中搜索图像.
+IniDelete 删除标准格式的 .ini 文件中的值.
+IniRead 从标准 ini 格式文件中读取一个值, 一个段或段名列表.
+IniWrite 写入值或段到标准格式的 .ini 文件.
+InputBox 显示输入框让用户输入字符串.
+InputHook 创建一个可用于收集或拦截键盘输入的对象.
+InstallKeybdHook 安装或卸载键盘钩子.
+InstallMouseHook 安装或卸载鼠标钩子.
+InStr 从左边或右边搜索一个字符串的给定 occurrence(出现).
+Integer 将数字字符串或浮点值转换为整数.
+IsLabel 如果当前作用域中存在指定的标签, 则返回非零数字.
+IsObject 如果指定的值是对象, 则返回非零数字.
+IsSet 如果指定变量已经被赋值, 则返回一个非零数字.
+IsSetRef 如果指定变量已经被赋值, 则返回一个非零数字.
+KeyHistory 显示脚本信息和最近键击和鼠标点击的历史.
+KeyWait 等待按键或鼠标/控制器按钮被松开或按下.
+ListHotkeys 显示当前脚本使用的热键, 不论它们的子程序当前是否运行, 也不论它们是否使用键盘或鼠标钩子.
+ListLines 启用或禁用行日志记录或显示最近执行的脚本行.
+ListVars 显示脚本的变量: 它们的名称和当前的内容.
+ListViewGetContent 返回 ListView 中的一个项目/行的列表.
+LoadPicture 载入图像文件并返回位图或图标句柄.
+Log 返回指定数字的对数(10 为底).
+Ln 返回指定数字的自然对数(e 为底).
+Map 根据键值对列表创建 Map(映射).
+Max 返回一组数字中的最大值.
+MenuBar 创建一个 MenuBar 对象, 该对象可用于定义 GUI 菜单栏.
+Menu 创建一个 Menu 对象, 可用于创建和显示菜单.
+MenuFromHandle 检索对应于 Win32 菜单句柄的 Menu 或 MenuBar 对象.
+MenuSelect 从指定窗口菜单栏中调用菜单项.
+Min 返回一组数字中的最小值.
+Mod 取模.返回一个数字(被除数) 除以另一个数字(除数) 的余数.
+MonitorGet 检查指定的监视器是否存在, 并可选地检索其边界坐标.
+MonitorGetCount 返回监视器的数量.
+MonitorGetName 返回指定监视器的操作系统名称.
+MonitorGetPrimary 返回主监视器的编号.
+MonitorGetWorkArea 检查指定的监视器是否存在, 并可选地检索其工作区域的边界坐标.
+MouseClick 点击或按住鼠标按钮, 或滚动鼠标滚轮.注意: Click 函数通常更灵活和易于使用.
+MouseClickDrag 点击并按住指定的鼠标按钮, 接着移动鼠标到目标坐标, 然后松开该按钮.
+MouseGetPos 获取鼠标光标的当前位置, 和可选的它悬停在哪个窗口和控件上.
+MouseMove 移动鼠标光标.
+MsgBox 在含有一个或多个按钮(例如 "是" 和 "否") 的小窗口中显示指定的文本.
+Number 将一个数字字符串转换为一个纯整数或浮点数.
+NumGet 返回存储在指定地址+偏移量处的二进制数.
+NumPut 将一个或多个数字以二进制格式存储在指定的地址+偏移量.
+ObjAddRef 增加对象的引用计数.
+ObjRelease 减少对象的引用计数.
+ObjBindMethod 创建一个绑定函数对象, 它能调用指定对象的方法.
+ObjHasOwnProp TODO
+ObjOwnProps TODO
+ObjGetBase 检索对象的基对象.
+ObjGetCapacity 返回对象内部属性数组的当前容量.
+ObjOwnPropCount 返回对象拥有的属性的数量.
+ObjSetBase 设置对象的基对象.
+ObjSetCapacity 设置对象内部自有属性数组的当前容量.
+OnClipboardChange 注册一个每当剪贴板内容发生改变时, 自动调用的函数.
+OnError 注册一个当未处理错误发生时, 自动调用的函数.
+OnExit 注册一个当脚本退出时, 自动调用的函数.
+OnMessage 注册一个当脚本接收到指定消息时, 自动调用的函数.
+Ord 返回指定字符串中首个字符的序号值(数字字符编码).
+OutputDebug 发送字符串到调试器(如果有) 显示出来.
+Pause 暂停脚本的当前线程.
+Persistent 防止脚本在最后一个线程完成后自动退出, 允许它在空闲状态下运行.
+PixelGetColor 获取指定的 X 和 Y 坐标处像素的颜色.
+PixelSearch 在屏幕某个区域中搜索指定颜色所在的像素.
+PostMessage 将消息放入窗口或控件的消息队列中.
+ProcessClose 强制关闭第一个匹配的进程.
+ProcessExist 检查指定的进程是否存在.
+ProcessGetName 返回指定进程的名称.
+ProcessGetParent 返回创建指定进程的进程 ID(PID).
+ProcessGetPath 返回指定进程的路径.
+ProcessSetPriority 更改第一个匹配进程的优先级.
+ProcessWait 等待指定的进程存在.
+ProcessWaitClose 等待匹配进程关闭.
+Random 生成一个伪随机数字.
+RegExMatch 判断字符串是否包含某个匹配模式(正则表达式).
+RegExReplace 替换字符串中匹配模式(正则表达式) 出现的地方.
+RegCreateKey 创建注册表键而不写入值.
+RegDelete 从注册表中删除值.
+RegDeleteKey 从注册表中删除子键.
+RegRead 从注册表读取值.
+RegWrite 写入值到注册表.
+Reload 使用新的脚本实例替换当前正在运行的.
+Return 从函数返回到之前通过函数调用, Hotkey 激活, 或其他方式执行跳转的地方.
+Round 返回指定数字四舍五入到 N 位小数的数字.
+Run 运行外部程序.
+RunAs 指定一组用户凭据, 应用于后续所有的 Run 和 RunWait 函数.
+RunWait 运行一个外部程序并且等待它运行完毕.
+Send 发送模拟键击和鼠标点击到活动窗口.
+SendText 发送模拟键击和鼠标点击到活动窗口.
+SendInput 发送模拟键击和鼠标点击到活动窗口.
+SendPlay 发送模拟键击和鼠标点击到活动窗口.
+SendEvent 发送模拟键击和鼠标点击到活动窗口.
+SendLevel 控制热键和热字串是否忽略模拟的键盘和鼠标事件.
+SendMessage 发送消息到窗口或控件并等待回复.
+SendMode 使 Send 等同于 SendEvent 或 SendPlay, 而不是默认的(SendInput).也使 Click 和 MouseMove/Click/Drag 使用指定的方法.
+SetCapsLockState 设置 CapsLock 的状态.还可以强制此按键保持打开或关闭状态.
+SetControlDelay 设置每个控件改动函数后将发生的延迟.
+SetDefaultMouseSpeed 设置在 Click, MouseMove, MouseClick 和 MouseClickDrag 中没有指定鼠标速度时使用的速度.
+SetKeyDelay 设置每次 Send 或 ControlSend 发送键击后自动的延时.
+SetMouseDelay 设置每次鼠标移动或单击后发生的延迟.
+SetNumLockState 设置 NumLock 的状态.还可以强制此按键保持打开或关闭状态.
+SetScrollLockState 设置 ScrollLock 键的状态.还可以强制此按键保持打开或关闭状态.
+SetRegView 设置 RegRead, RegWrite, RegDelete, RegDeleteKey 和 Loop Reg 使用的注册表视图, 允许它们在 32 位脚本中访问 64 位注册表视图, 反之亦然.
+SetStoreCapsLockMode 在 Send 之后是否恢复 CapsLock 的状态.
+SetTimer 在指定的时间间隔自动重复的调用函数.
+SetTitleMatchMode 设置 WinTitle 参数在内置函数中的匹配行为, 如 WinWait.
+SetWinDelay 设置在每次执行窗口函数(例如 WinActivate) 后的延时.
+SetWorkingDir 更改脚本当前的工作目录.
+Shutdown 关机, 重启或注销系统.
+Sin 返回指定数字的三角正弦值.
+Sleep 在继续前等待指定的时间量.
+Sort 以字母, 数字或随机顺序排列变量的内容(可以选择是否移除重复项).
+SoundBeep 从 PC 扬声器发出声音.
+SoundGetInterface 检索声音设备或组件的原生 COM 接口.
+SoundGetMute 检索声音设备的静音设置.
+SoundGetName 检索声音设备或组件的名称.
+SoundGetVolume 检索声音设备的音量设置.
+SoundPlay 播放音频, 视频或其他支持的文件类型.
+SoundSetMute 更改声音设备的静音设置.
+SoundSetVolume 更改声音设备的音量设置.
+SplitPath 将文件名(路径) 或 URL 分解成它的名称, 目录, 扩展名和驱动器.
+Sqrt 返回指定数字的平方根.
+StatusBarGetText 获取标准状态栏控件的文本.
+StatusBarWait 等待直到窗口的状态栏包含指定的字符串.
+StrCompare 按字母顺序比较两个字符串.
+StrGet 从内存地址或缓冲中复制字符串, 可选地从给定的代码页进行转换.
+String 将值转换为字符串.
+StrLen 检索字符串中的字符数.
+StrLower 将字符串转换为小写.
+StrPtr 返回字符串的当前内存地址.
+StrPut 复制字符串到内存地址或缓冲, 可选地将字符串转换到给定的代码页.
+StrReplace 用新字符串替换指定的子字符串.
+StrSplit 使用指定的分隔符将字符串分成子字符串数组.
+StrTitle 将字符串转换为标题大写.
+StrUpper 将字符串转换为大写.
+SubStr 从字符串中的指定位置检索一个或多个字符.
+Suspend 禁用或启用所有的或选择的热键和热字串.
+Switch 将一个值与多个实例进行比较, 并执行第一个匹配的语句.
+SysGet 获取系统对象的尺寸和其他系统属性.
+SysGetIPAddresses 返回系统的 IPv4 地址数组.
+Tan 返回指定数字的三角正切值.
+Thread 设置线程的优先级或是否可以被中断.它也可以临时禁用所有的计时器.
+Throw 发生错误时发出信号.此信号可以被 Try-Catch 语句捕获.
+ToolTip 在屏幕的任意位置显示一个置顶的窗口.
+TraySetIcon 更改脚本的托盘图标(该图标也使用于 GUI 和对话框窗口).
+TrayTip 在托盘图标附近显示一个气球提示窗口.在 Windows 10 及后续版本中, 会显示一个 toast 通知
+Trim 移除字符串开头和末尾的字符.
+LTrim 移除字符串开头的字符.
+RTrim 移除字符串末尾的字符.
+Type 返回值的类名.
+VarSetStrCapacity 增加变量的容量或释放其内存.一般情况下不需要, 但可以与 DllCall 或 SendMessage 一起使用, 或者优化重复连接.
+VerCompare 对比两个版本字符串.
+WinActivate 激活指定的窗口.
+WinActivateBottom 与 WinActivate 相同, 只是此函数激活最下面的匹配窗口而不是最上面的.
+WinActive 检查指定的窗口是否被激活并返回其唯一 ID(HWND).
+WinClose 关闭指定的窗口.
+WinExist 检查指定的窗口是否存在并返回其唯一 ID(HWND).
+WinGetClass 获取指定窗口的类名.
+WinGetClientPos 检索指定窗口的工作区的位置和大小.
+WinGetControls 返回指定窗口中所有控件名称(ClassNN) 的数组.
+WinGetControlsHwnd 返回指定窗口中所有控件的唯一 ID 号(HWND) 的数组.
+WinGetCount 返回符合指定条件的现有窗口的数目.
+WinGetID 返回指定窗口的唯一 ID 号(HWND).
+WinGetIDLast 如果找到多个匹配窗口, 则返回最后的/最底部的窗口的唯一 ID 号(HWND).
+WinGetList 返回与指定条件匹配的所有现有窗口的唯一 ID 号(HWND) 的数组.
+WinGetMinMax 如果指定的窗口被最大化或最小化, 则返回一个非零数字.
+WinGetPID 返回指定窗口的进程 ID(PID).
+WinGetPos 获取指定窗口的位置和大小.
+WinGetProcessName 返回指定窗口的进程的名称.
+WinGetProcessPath 返回拥有指定窗口的进程的完整路径和名称.
+WinGetStyle TODO
+WinGetExStyle 分别返回指定窗口的样式和扩展样式.
+WinGetText 从指定窗口检索文本.
+WinGetTitle 检索指定窗口的标题.
+WinGetTransColor 返回指定窗口中标记为透明的颜色.
+WinGetTransparent 返回指定窗口的透明度的等级.
+WinHide 隐藏指定的窗口.
+WinKill 强制关闭指定的窗口.
+WinMaximize 将指定的窗口放大到最大尺寸.
+WinMinimize 将指定的窗口最小化为任务栏上的按钮.
+WinMinimizeAll 最小化所有窗口.
+WinMinimizeAllUndo 还原所有最小化窗口.
+WinMove 改变指定窗口的位置和/或大小.
+WinMoveBottom 发送指定的窗口到堆栈的底部; 也就是说, 在所有其他窗口下方.
+WinMoveTop 将指定的窗口移到堆栈顶部, 而无需显式激活它.
+WinRedraw 重绘指定窗口.
+WinRestore 如果指定的窗口处于最小化或最大化状态, 则还原它.
+WinSetAlwaysOnTop 使指定的窗口停留在所有其他窗口的顶部(除了其他置顶窗口).
+WinSetEnabled 启用或禁用指定的窗口.
+WinSetRegion 将指定窗口的形状改为指定的矩形, 椭圆或多边形.
+WinSetStyle TODO
+WinSetExStyle 分别改变指定窗口的样式和扩展样式.
+WinSetTitle 更改指定窗口的标题.
+WinSetTransColor 使所选颜色的所有像素在指定的窗口内不可见(透明).
+WinSetTransparent 使指定的窗口半透明.
+WinShow 显示指定的窗口.
+WinWait 等待直到指定的窗口存在.
+WinWaitActive 等待直到指定的窗口处于活动
+WinWaitNotActive 等待直到指定的窗口处于不活动状态.
+WinWaitClose 等待直到找不到匹配的窗口.
+A_Space 包含单个空格字符.
+A_Tab 包含单个 tab(制表符) 字符.
+A_Args 包含一个命令行参数数组.有关详情, 请参阅向脚本传递命令行参数.
+A_WorkingDir 可以用来获取或设置脚本当前工作目录, 这是访问文件的默认路径.除非是根目录, 否则不包含路径末尾的反斜杠.两个示例: C:\ 和 C:\My Documents.SetWorkingDir 也可以用来改变工作目录.无论脚本是如何启动的, 脚本的工作目录默认为 A_ScriptDir.
+A_InitialWorkingDir 脚本的初始工作目录, 由它的启动方式决定.例如, 如果它是通过快捷方式运行的 -- 比如在开始菜单 -- 它的初始工作目录是由快捷方式属性中的 "起始位置" 字段决定的.
+A_ScriptDir 当前脚本所在目录的完整路径.不包含最后的反斜杠(根目录同样如此).如果脚本文字是从标准输入中读取的而不是从文件中读取的, 变量值为初始工作目录.
+A_ScriptName 可用于获取或设置 MsgBox, InputBox, FileSelect, DirSelect 和 Gui 的默认标题.如果脚本没有设置, 则默认为当前脚本的文件名, 不包括路径, 例如 MyScript.ahk.如果从标准输入中读取而不是从文件中读取的脚本文本, 则该变量包含一个星号(*).如果脚本是编译的或嵌入的, 这就是当前可执行文件的名称.
+A_ScriptFullPath 当前脚本的完整路径, 例如 C:\Scripts\My Script.ahk 如果脚本文字是从标准输入中读取的而不是从文件中读取的, this variable contains an asterisk (*).如果脚本是编译的或嵌入的, 这就是当前可执行文件的完整路径.
+A_ScriptHwnd 脚本的主窗口(隐藏的) 的唯一 ID(HWND/句柄).
+A_LineNumber 脚本(或其 #Include 文件) 中正在执行的行的行号.这个行号与 ListLines 显示的一致; 它对于错误报告非常有用, 比如这个例子: MsgBox "Could not write to log file (line number " A_LineNumber ")".由于已编译脚本已经把它所有的 #Include 文件合并成一个大脚本, 所以它的行号可能与它在未编译模式运行时不一样.
+A_LineFile A_LineNumber 所属文件的完整路径和名称.如果脚本是从外部文件加载的, 这等同于 A_ScriptFullPath, 除非该行属于脚本的 #Include 文件之一.如果脚本是基于一个 .bin 文件编译的, 这就是当前可执行文件的完整路径和名称, 等同于 A_ScriptFullPath.如果脚本是嵌入的, A_LineFile 包含一个星号(*) 后面是资源名称; 例如 *#1
+A_ThisFunc 当前正在执行的自定义函数的名称(没有则为空); 例如: MyFunction.另请参阅: Name 属性(Func)
+A_AhkVersion 包含了运行当前脚本的 AutoHotkey 主程序的版本号, 例如 1.0.22.在已编译脚本中, 它包含了原来编译时使用的主程序的版本号.格式化的版本号使得脚本可以使用 > 或 >= 来检查 A_AhkVersion 是否大于某个最小的版本号, 如这个例子所示: if (A_AhkVersion >= "1.0.25.07").
+A_AhkPath 对于非编译的或嵌入的脚本: 实际运行当前脚本的 EXE 文件的完整路径和名称.例如: C:\Program Files\AutoHotkey\AutoHotkey.exe对于基于 .bin 文件的编译脚本, 该值是通过从注册表中读取安装目录并附加 "\AutoHotkey.exe" 来确定的.如果没有安装 AutoHotkey, 该值为空.等同于下面的例子:InstallDir := RegRead("HKLM\SOFTWARE\AutoHotkey", "InstallDir", "")AhkPath := InstallDir ? InstallDir "\AutoHotkey.exe" : "" 对于基于 .exe 文件的编译脚本, A_AhkPath 包含编译脚本的完整路径.这可以与 /script 结合使用来执行外部脚本.如果要找到已安装的 AutoHotkey 副本, 请按上面所示读取注册表.
+A_IsCompiled 如果当前运行的脚本为已编译 EXE 时, 此变量值为 1, 否则为 0(这会被视为 false).
+A_YYYY 4 位数表示的当前年份(例如 2004).与 A_Year 含义相同.注意: 要检索符合您区域设置和语言的格式化时间或日期, 请使用 FormatTime()(时间和长日期) 或 FormatTime(, "LongDate")(检索长格式日期).
+A_MM 2 位数表示的当前月份(01-12).与 A_Mon 含义相同.
+A_DD 2 位数表示的当前月份的日期(01-31).与 A_MDay 含义相同.
+A_MMMM 使用当前用户语言表示的当前月份的全称, 例如 July
+A_MMM 使用当前用户语言表示的当前月份的简称, 例如 Jul
+A_DDDD 使用当前用户语言表示的当前星期几的全称, 例如, Sunday
+A_DDD 使用当前用户语言表示的当前星期几的简称, 例如 Sun
+A_WDay 1 位数表示的当前星期经过的天数(1-7).在所有区域设置中 1 都表示星期天.
+A_YDay 当前年份中经过的天数(1-366).不会使用零对变量的值进行填充, 例如检索到 9, 而不是 009.要检索零填充的值, 请使用: FormatTime(, "YDay0").
+A_YWeek 符合 ISO 8601 标准的当前的年份和周数(例如 200453).要分离年份和周数, 请使用 Year := SubStr(A_YWeek, 1, 4) 和 Week := SubStr(A_YWeek, -2).A_YWeek 的准确定义为: 如果含有 1 月 1 日的星期内有四天或四天以上在新年里, 则它被认为是新年的第一个星期.否则, 它为前一年的最后一个星期, 而下一星期为新年的第一个星期.
+A_Hour 在 24 小时制(例如, 17 表示 5pm) 中 2 位数表示的当前小时数(00-23).要获取带 AM/PM 提示的 12 小时制的时间, 请参照此例: FormatTime(, "h:mm:ss tt")
+A_Min 2 位数表示的当前分钟数(00-59).
+A_Sec 2 位数表示的当前秒数(00-59).
+A_MSec 3 位数表示的当前毫秒数(000-999).要移除前导零, 请参照此例: Milliseconds := A_MSec + 0.
+A_Now 以 YYYYMMDDHH24MISS 格式表示的当前本地时间.注意: 可以使用 DateAdd 和 DateDiff 执行日期和时间的数学运算.此外, FormatTime 可以根据您的区域设置或选项来格式化日期和/或时间.
+A_NowUTC 以 YYYYMMDDHH24MISS 格式表示的当前的协调世界时(UTC).UTC 本质上和格林威治标准时间(GMT) 一致.
+A_TickCount 计算机自启动以来经过的毫秒数, 最多为 49.7 天.通过把 A_TickCount 保存到变量中, 经过一段时间后从最近的 A_TickCount 值中减去那个变量, 可以计算出所经过的时间.例如:StartTime := A_TickCount Sleep 1000 ElapsedTime := A_TickCount - StartTime MsgBox ElapsedTime " milliseconds have elapsed." 如果您需要比 A_TickCount 的 10 ms 更高的精确度, 请使用 QueryPerformanceCounter()(一个高精度计时器).
+A_IsSuspended 如果脚本挂起时值为 1, 否则为 0.
+A_IsPaused 如果在当前线程之后的线程是暂停时值为 1, 否则为 0.
+A_IsCritical 如果当前线程的 Critical 关闭时, 则值为 0.否则值为大于零的整数, 即为 Critical 使用的消息检查间隔.Critical 的当前状态可以通过 Old_IsCritical := A_IsCritical 然后是 Critical Old_IsCritical 来保存和恢复.
+A_ListLines 可用于获取或设置是否记录行.可能的值是 0(禁用) 和 1(启用).有关详情, 请参阅 ListLines.
+A_TitleMatchMode 可用于获取或设置标题匹配模式.可能的值是 1, 2, 3 和 RegEx.有关详情, 请参阅 SetTitleMatchMode.
+A_TitleMatchModeSpeed 可用于获取或设置标题匹配速度.可能的值是 fast 和 slow.有关详情, 请参阅 SetTitleMatchMode.
+A_DetectHiddenWindows 可用于获取或设置是否检测隐藏窗口.可能的值是 0(禁止) 和 1(启用).有关详情, 请参阅 DetectHiddenWindows.
+A_DetectHiddenText 可以用来获取或设置是否检测窗口中的隐藏文本.可能的值是 0(禁止) 和 1(启用).有关详情, 请参阅 DetectHiddenText.
+A_FileEncoding 可以用来获取或设置各种内置函数的默认编码.有关详情, 请参阅 FileEncoding.
+A_SendMode 可用于获取或设置发送模式.可能的值是 Event, Input, Play 和 InputThenPlay.有关详情, 请参阅 SendMode.
+A_SendLevel 可用于获取或设置发送级别, 为 0 至 100 之间的整数, 包括 0 和 100.有关详情, 请参阅 SendLevel.
+A_StoreCapsLockMode 可以用来获取或设置是否在 Send 后恢复 CapsLock 的状态.可能的值是 0(禁止) 和 1(启用).有关详情, 请参阅 SetStoreCapsLockMode.
+A_KeyDelay TODO
+A_KeyDuration 可以用来获取或设置按键的延迟或持续时间, 单位为毫秒.有关详情, 请参阅 SetKeyDelay.
+A_KeyDelayPlay TODO
+A_KeyDurationPlay 可以用来获取或设置通过 SendPlay 模式发送的按键的延迟或持续时间, 单位为毫秒.有关详情, 请参阅 SetKeyDelay.
+A_WinDelay 可用于获取或设置窗口函数的延迟, 单位为毫秒.有关详情, 请参阅 SetWinDelay.
+A_ControlDelay 可用于获取或设置控件修改函数的延迟, 单位为毫秒.有关详情, 请参阅 SetControlDelay.
+A_MenuMaskKey 控制哪个键被用来掩饰(屏蔽) Win 或 Alt 键松开事件.有关详情, 请参阅 A_MenuMaskKey.
+A_MouseDelay TODO
+A_MouseDelayPlay 可以用来获取或设置鼠标延迟, 单位为毫秒.传统的 SendEvent 模式为 A_MouseDelay, 而 SendPlay 为 A_MouseDelayPlay.有关详情, 请参阅 SetMouseDelay.
+A_DefaultMouseSpeed 可以用来获取或设置默认的鼠标速度, 从 0(最快) 到 100(最慢) 的整数.有关详情, 请参阅 SetDefaultMouseSpeed.
+A_CoordModeToolTip TODO
+A_CoordModePixel TODO
+A_CoordModeMouse TODO
+A_CoordModeCaret TODO
+A_CoordModeMenu 可以用来获取或设置相对坐标的区域.可能的值是 Window, Client 或 Screen.有关详情, 请参阅 CoordMode.
+A_RegView 可用于获取或设置注册表视图.可能的值是 32, 64 和 Default.有关详情, 请参阅 SetRegView.
+A_TrayMenu 返回可用于修改或显示托盘菜单的菜单对象.
+A_AllowMainWindow 可以用来获取或设置是否允许通过托盘图标打开脚本的主窗口.可能的值是 0(禁止) 和 1(允许).如果脚本既不是编译的也不是嵌入的, 此变量默认为 1, 否则此变量默认为 0, 但可以通过给该变量赋值来改写它.将其设置为 1 还可以恢复托盘菜单中的 "Open" 菜单项, 并启用主窗口的 View 菜单中的项目, 如 "Lines most recently executed", 这允许查看脚本的源代码和其他信息.在脚本运行时遇到下列函数, 总是能够显示主窗口并选择相应的视图选项: ListLines, ListVars, ListHotkeys 和 KeyHistory.设置为 1 并不妨碍主窗口被 WinShow 显示, 或者被 ControlGetText 或类似的方法检查, 但它确实阻止了脚本的源代码和其他信息通过主窗口暴露出来, 除非脚本调用了上述的某个函数.
+A_IconHidden 可以用来获取或设置是否隐藏托盘图标.可能的值是 0(可见) 和 1(隐藏).有关详情, 请参阅 #NoTrayIcon.
+A_IconTip 可用于获取或设置托盘图标的工具提示文字, 当鼠标悬停在其上时显示该文本.如果为空, 则使用脚本的名称.要创建多行工具提示, 请在每行之间使用换行符(`n), 例如 "Line1`nLine2".只显示前 127 个字符, 并且文本在第一个制表符(如果存在) 处被截断.在 Windows 10 及更早版本中, 若要显示包含 & 符号的工具提示文本, 请使用另外两个 & 符号来转义 & 符号.例如, 指定 A &&& B 将在工具提示的文本中显示 "A & B".
+A_IconFile 如果通过 TraySetIcon 指定自定义的托盘图标时, 变量的值为图标文件的完整路径和名称, 否则为空.
+A_IconNumber 如果 A_IconFile 为空时, 值为空.否则, 它的值为 A_IconFile 中的图标的编号(通常为 1).
+A_TimeIdle 从系统最后一次接收到键盘, 鼠标或其他输入后所经过的毫秒数.这可以用来判断用户是否离开.用户的物理输入和由 任何 程序或脚本生成的模拟输入(例如 Send 或 MouseMove 函数) 会让此变量重置为零.由于此变量的值趋向于以 10 的增量增加, 所以不应该判断它是否等于另一个值.相反, 应该检查此变量是否大于或小于另一个值.例如:if A_TimeIdle > 600000 MsgBox "The last keyboard or mouse activity was at least 10 minutes ago."
+A_TimeIdlePhysical 与上面类似, 但在安装了相应的钩子(键盘或鼠标) 后会忽略模拟的键击和/或鼠标点击; 即此变量仅对物理事件做出响应.(这样避免了由于模拟键击和鼠标点击而误以为用户存在.) 如果两种钩子都没有安装, 则此变量等同于 A_TimeIdle.如果仅安装了一种钩子, 那么仅此类型的物理输入才会对 A_TimeIdlePhysical 起作用(另一种/未安装钩子的输入, 包括物理的和模拟的, 都会被忽略).
+A_TimeIdleKeyboard 如果安装了键盘钩子, 这是自系统上次接收物理键盘输入以来所经过的毫秒数.否则, 这个变量就等于 A_TimeIdle.
+A_TimeIdleMouse 如果安装了鼠标钩子, 这是自系统上次收到物理鼠标输入以来所经过的毫秒数.否则, 这个变量就等于 A_TimeIdle.
+A_ThisHotkey 最近执行的热键或非自动替换热字串(如果没有则为空), 例如 #z.如果当前线程被其他热键或热字串中断, 那么此变量的值会变化, 所以一般情况下, 最好使用 ThisHotkey 参数.首次创建热键时 -- 通过 Hotkey 函数或脚本中的双冒号语法 -- 其键名及其修饰符的顺序成为此热键的固定名称, 由热键的所有变体共享.首次创建热字串时 -- 通过 Hotstring 函数或脚本中的双冒号标签 -- 它的触发字符串和选项字符序列成为该热字符串的永久名称.
+A_PriorHotkey 除了保存前一次热键的名称外, 其他的与上面相同.如果没有它会为空.
+A_PriorKey 在最近一次键-按下或键-释放之前按下的最后一个键的名称, 如果在按键历史中找不到合适的键-按下则为空.不包括由 AutoHotkey 脚本生成的所有输入.要使用此变量, 首先必须安装键盘或鼠标钩子并且启用了key history(按键历史).
+A_TimeSinceThisHotkey 从 A_ThisHotkey 按下后到现在经过的毫秒数.如果 A_ThisHotkey 为空, 则此变量的值为空.
+A_TimeSincePriorHotkey 从 A_PriorHotkey 按下后到现在经过的毫秒数.如果 A_PriorHotkey 为空, 则此变量的值为 -1.
+A_EndChar 用户最近按下的触发了非自动替换热字串的终止字符.如果不需要终止符(由于使用了 * 选项), 那么此变量将为空.
+A_MaxHotkeysPerInterval 可用于获取或设置在 A_HotkeyInterval 所定义的时间间隔内按下热键而不会触发警告对话框的最大数量.有关详情, 请参阅 A_MaxHotkeysPerInterval.
+A_HotkeyInterval 可用于获取或设置 A_MaxHotkeysPerInterval 使用的时间间隔长度, 以毫秒为单位.
+A_HotkeyModifierTimeout 可用于获取或设置超时, 该超时影响带有以下热键修饰符的 Send 的行为: Ctrl, Alt, Win 和 Shift.有关详情, 请参阅 A_HotkeyModifierTimeout.
+A_ComSpec 包含与 ComSpec 环境变量相同的字符串, 通常是命令提示符可执行文件(cmd.exe) 的完整路径.常与 Run/RunWait 一起使用.例如:C:\Windows\system32\cmd.exe
+A_Temp 存放临时文件的文件夹的完整路径和名称.它的值从下列的其中一个位置检索(按顺序): 1) 环境变量 TMP, TEMP 或 USERPROFILE; 2) Windows 目录.例如:C:\Users\<UserName>\AppData\Local\Temp
+A_OSVersion 操作系统的版本号, 格式为 "major.minor.build".例如, Windows 7 SP1 为 6.1.7601.在 AutoHotkey 可执行文件或已编译脚本的属性中应用兼容性设置会导致系统报告不同的版本号, 这将体现在 A_OSVersion 中.
+A_Is64bitOS 当操作系统为 64 位则值为 1(true), 为 32 位则为 0(false).
+A_PtrSize 包含指针的大小值, 单位为字节.值为 4(32 位) 或 8(64 位), 取决于运行当前脚本的执行程序的类型.
+A_Language 当前系统的默认语言, 值为这些 4 位数字编码的其中一个.
+A_ComputerName 在网络上看到的计算机名称.
+A_UserName 运行当前脚本的用户的登录名.
+A_WinDir Windows 目录.例如: C:\Windows
+A_ProgramFiles Program Files 目录(例如 C:\Program Files 或 C:\Program Files (x86)).这通常与 ProgramFiles 环境变量相同.在 64-位系统(和非 32-位系统), 适用于下列内容:•如果可执行文件(EXE) 以 32 位脚本运行的时候, A_ProgramFiles 返回路径为 "Program Files (x86)" 目录.•对于 32 位的进程, ProgramW6432 环境变量指向 64 位 Program Files 目录的路径.在 Windows 7 和更高版本上, 对于 64 位的进程也是这样设置的.•ProgramFiles(x86) 环境变量指向 32 位 Program Files 目录的路径.
+A_AppData 当前用户的应用程序数据文件夹的完整路径和名称.例如:C:\Users\<UserName>\AppData\Roaming
+A_AppDataCommon 所有用户的应用程序数据文件夹的完整路径和名称.例如:C:\ProgramData
+A_Desktop 当前用户的桌面文件夹的完整路径和名称.例如:C:\Users\<UserName>\Desktop
+A_DesktopCommon 所有用户的桌面文件夹的完整路径和名称.例如:C:\Users\Public\Desktop
+A_StartMenu 当前用户的开始菜单文件夹的完整路径和名称.例如:C:\Users\<UserName>\AppData\Roaming\Microsoft\Windows\Start Menu
+A_StartMenuCommon 所有用户的开始菜单文件夹的完整路径和名称.例如:C:\ProgramData\Microsoft\Windows\Start Menu
+A_Programs 当前用户的开始菜单中程序文件夹的完整路径和名称.例如:C:\Users\<UserName>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
+A_ProgramsCommon 所有用户的开始菜单中程序文件夹的完整路径和名称.例如:C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+A_Startup 当前用户的开始菜单中启动文件夹的完整路径和名称.例如:C:\Users\<UserName>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+A_StartupCommon 所有用户的开始菜单中启动文件夹的完整路径和名称.例如:C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup
+A_MyDocuments 当前用户 "我的文档" 文件夹的完整路径和名称.与大多数类似变量不同, 当此文件夹为驱动器的根目录时, 此变量的值不包含最后的反斜杠(例如, 它的值是 M: 而不是 M:\).例如:C:\Users\<UserName>\Documents
+A_IsAdmin 如果当前用户有管理员权限, 则值为 1, 否则为 0.要使脚本以管理员权限重新启动(或显示提示向用户请求管理员权限), 请使用 Run *RunAs.但是请注意, 以管理员权限运行脚本会导致脚本启动的所有程序也以管理员权限运行.对于可能的替代方案, 请参阅常见问题(FAQ).
+A_ScreenWidth 主监视器的宽度和高度, 单位为像素(例如 1024 和 768).要获取多显示器系统中其他显示器的尺寸, 请使用 SysGet.要获取整个桌面(即使它横跨多个显示器) 的宽度和高度, 请使用下面的例子:VirtualWidth := SysGet(78) VirtualHeight := SysGet(79) 此外, 使用 SysGet 可以获取显示器的工作区域, 它比显示器的整个区域小, 因为它不包括任务栏和其他注册的桌面工具栏.
+A_ScreenHeight 主监视器的宽度和高度, 单位为像素(例如 1024 和 768).要获取多显示器系统中其他显示器的尺寸, 请使用 SysGet.要获取整个桌面(即使它横跨多个显示器) 的宽度和高度, 请使用下面的例子:VirtualWidth := SysGet(78) VirtualHeight := SysGet(79) 此外, 使用 SysGet 可以获取显示器的工作区域, 它比显示器的整个区域小, 因为它不包括任务栏和其他注册的桌面工具栏.
+A_ScreenDPI 沿屏幕宽度每逻辑英寸的像素数.在具有多个显示监视器的系统中, 此值对于所有监视器都是相同的.在大多数系统中该值为 96; 它取决于系统文本大小(DPI) 设置.另请参阅 GUI 的 -DPIScale 选项.
+A_Clipboard 可用于获取或设置系统剪贴板的内容.有关详情, 请参阅 A_Clipboard.
+A_Cursor 当前显示的鼠标光标类型.其值为下列单词的其中一个: AppStarting(程序启动, 后台运行--箭头+等待), Arrow(箭头, 正常选择--标准光标), Cross(十字, 精确选择), Help(帮助, 帮助选择--箭头+问号), IBeam(工字光标, 文本选择--输入), Icon, No(No, 不可用--圆圈加反斜杠), Size, SizeAll(所有尺寸, 移动--四向箭头), SizeNESW(东南和西北尺寸, 沿对角线调整 2--双箭头指向东南和西北), SizeNS(南北尺寸, 垂直调整--双箭头指向南北), SizeNWSE(西北和东南尺寸, 沿对角线调整 1--双箭头指向西北和东南), SizeWE(东西尺寸, 水平调整--双箭头指向东西), UpArrow(向上箭头, 候选--指向上的箭头), Wait(等待, 忙--沙漏或圆圈), Unknown(未知).与 size-类型光标一起使用的缩略词是罗盘方向, 例如 NESW = NorthEast(东北)+SouthWest(西南).手型指针(点击和抓取) 属于 Unknown 类别.
+A_EventInfo 包含下列事件的额外信息:•鼠标滚轮热键(WheelDown/Up/Left/Right)•OnMessage•Regular Expression Callouts注意: 与类似 A_ThisHotkey 这样的变量不同, 每个线程保留自身的 A_EventInfo 值.因此, 如果一个线程被另一个中断, 在这个线程恢复时它仍将看到这些变量的原来/正确的值.脚本也可以设置 A_EventInfo, 但只能在指针可用的范围内接受无符号整数(32-bit 或 64-bit 取决于 AutoHotkey 的版本).
+A_LastError 这通常是脚本调用某些函数后, 包括 DllCall, Run/RunWait, File/Ini/Reg 函数(在文档中) 和可能的其他函数, 系统 GetLastError() 函数的结果.A_LastError 是一个介于 0 和 4294967295 之间的数字(通常格式化为十进制, 而不是十六进制).零(0) 表示成功, 但是任何其他数字都表示调用失败.每个数字对应一个特定的错误条件.要了解如何获得本地化的错误描述文本, 请参阅 OSError, 或在 www.microsoft.com ¬ 搜索 "系统错误代码", 以获得列表.A_LastError 是每个线程的设置; 也就是说, 被其他线程中断不能改变它.给 A_LastError 赋值, 也会调用系统的 SetLastError() 函数.
+
+// --------------------------- 自定义函数------------
+
+FileReadRaw 读取二进制文件 (比如: 图片), 返回值类型 base64
+FileReadUTF8 读取 UTF8 编码的文本文件

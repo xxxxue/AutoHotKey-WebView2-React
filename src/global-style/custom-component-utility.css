@@ -1,0 +1,117 @@
+@reference "tailwindcss";
+
+/* 自己定义的 css 用 "aa" 开头,方便快速智能提示 */
+@utility aa-vip-card {
+  @apply relative w-fit rotate-0 cursor-pointer rounded-2xl border border-[#e0bc4f] bg-linear-to-r from-[#fdeb9080] to-[#eedaa080] px-2 font-sans font-medium text-[#C19A26] transition-[border-color_transform_rotate_scale] duration-500 ease-in-out;
+
+  &::after {
+    @apply absolute top-0 left-0 inline-block h-full w-full bg-[url('/flash.gif')] bg-cover bg-no-repeat opacity-60 content-[''];
+  }
+
+  &:hover {
+    @apply scale-110 rotate-2 border-[#ae860c];
+  }
+}
+
+@utility aa-top-right-button {
+  @apply flex h-full w-10 items-center;
+}
+
+@theme {
+  @keyframes my-spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+@utility aa-logo-spin {
+  transition-property: translate, scale, transform, left, top;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+  position: relative;
+  &:is(:where(.group):hover *) {
+    @media (hover: hover) {
+      /* left: calc(50vw - 30px); */
+      /* top: calc(50vh - 30px); */
+      translate: calc(50vw - 30px) calc(50vh - 30px);
+      scale: 250%;
+      z-index: 20;
+      animation: my-spin 0.7s linear infinite;
+    }
+  }
+}
+
+@utility aa-gradient-box {
+  position: relative;
+  padding: 5px;
+  border-radius: 20px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    padding: 5px;
+    border-radius: inherit;
+    background: linear-gradient(45deg, blue, pink);
+    mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    background-size: 300% 300%;
+    animation: gradientMove 3s ease-in-out infinite;
+  }
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@theme {
+  --aa-scrollbar-size-thin: 6px;
+  --aa-scrollbar-size-medium: 10px;
+  --aa-scrollbar-size-wide: 16px;
+}
+
+@utility aa-scrollbar-* {
+  --size: --value(--aa-scrollbar-size-*);
+
+  &::-webkit-scrollbar {
+    width: var(--size);
+    width: --value([integer], [length]);
+    width: --spacing(--value(integer));
+
+    height: --value(--aa-scrollbar-size-*);
+    height: --value([integer], [length]);
+    height: --spacing(--value(integer));
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #f1f5f9;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+  }
+}

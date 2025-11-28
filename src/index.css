@@ -1,0 +1,15 @@
+/* css 层 (样式优先级)
+( 后面的层可以覆盖前面的, 普通无层 css 级别最高,可覆盖所有层 )
+ */
+@layer theme, base, components, utilities;
+
+/* 添加 css 到 对应层 */
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/utilities.css' layer(utilities);
+
+/* 禁用 tailwind 的 重置 css , 使用 antd 的 reset.css, 确保 antd 组件的稳定性 */
+/* @import "tailwindcss/preflight.css" layer(base); */
+
+/* 项目中的文件 */
+@reference "./global-style/custom-utility.css";
+@reference "./global-style/custom-component-utility.css";
